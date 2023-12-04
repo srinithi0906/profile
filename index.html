@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="/resource/peky32x32.png">
+  <title>My profile page</title>
+</head>
+<body>
+  <main>
+    <!-- HEADER -->
+    <script>var swiper = new Swiper(".mySwiper", {
+        cssMode: true,
+        loop: true,
+        navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+        el: ".swiper-pagination",
+        },
+        mousewheel: true,
+        keyboard: true,
+        autoplay: {
+        delay: 5000,
+        delay: 4000,
+        disableOnInteraction: false,
+        },
+        speed: 5000,
+       });
+       </script>
+    <header>
+      <div class="logo">
+        <a href="resource/peky.png" target="_blank" rel="noopener noreferrer"><img src="/resource/peky-rem.png"></a>
+      </div>
+      <div class="menu">
+        <nav class="nav-list">
+          <a href="#home">Home</a>
+          <a href="#aboutme">About Me</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <!-- HOME -->
+<section id="home">
+      <div class="home-info">
+      <!-- Adicione um id para o elemento h2 que contém o seu nome -->
+        <h2 id="linha1"></h2>
+        <h2 id="linha2"></h2>
+      <span class="home-position">Web developer </span> 
+        <span class="home-resume">
+          Graduate of <br><a href="https://www.academiadecodigo.org/" style="color: white;">Sri Krishna College of Engineering
+            and Technology</a>
+            <br>
+          <br><strong>Location: Coimbatore,Tamilnadu</strong>
+          <br><a href="https://github.com/Cristiano642" target="_blank" style="color: white;"><img
+              src="resource/GitHub-icon.png"></a>
+          <a href="https://www.linkedin.com/in/cristianoe-dev/" target="_blank" style="color: white;"><img
+              src="resource/linkedin-icon.png"></a>
+          <a href="resource/Cristiano Esteves CV.pdf" target="_blank" style="color: white;"><img
+              src="resource/cv-icon.png"></a>
+        </span>
+        <button>
+          <a href="#contact">Contact me</a>
+        </button>
+      </div>
+      <div class="home-img">
+        <img src="http://127.0.0.1:5500/resource/spider.gif" alt="about me">
+      </div>
+    </section>
+    <section id="aboutme">
+      <div class="aboutme-info">
+        <h2>About me:</h2>
+        <span class="aboutme-position"></span>
+        <span class="aboutme-resume">
+          I'm a student of Sri Krishna College of Engineering and Technology, specialized in the department 
+          of Artificial Intelligence and Data Science.Myeslf,a young girl who would like to explore and experience 
+          technically in all aspects.I am a dynamic, responsible and communicative person who likes to work in a 
+          team and face new challenges.I've organized events in my college and made it successful.I have the will 
+          to do anything anytime if I'm assigned.I'm very much dedicated and full-fledged in what I'm doing.<br>
+          <br>
+
+          I'm doing courses in online on digital logics,blockchain,web devlopment,software development,etc.,.I also
+          got my certificates on some of the above mentioned.I've been trying on my best to achieve more and more 
+          and working on it.I'm deserved to be appointed for a good and eligible job since I would contribute my 
+          best from me for the work.
+
+          
+
+
+        </span>
+        <span class="icons">
+          <img src="resource/spider.gif" width="100px">
+        </span>
+      </div>
+    </section>
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h2>Skills</h2>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="resource/tetris-game.jpeg">
+            </div>
+            <div class="project-info">
+              <h2>Programming</h2>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>C++</li>
+                <li>C</li>
+                <li>Python</li>
+              </ul>
+              
+              <a href="https://th.bing.com/th/id/R.0a12c26485ed784248752b01faea400e?rik=HdlwOQrB55yHvA&riu=http%3a%2f%2fiihtng.com%2fwp-content%2fuploads%2f2020%2f01%2fProgramming-Language.jpg&ehk=cTY1G9Cond%2fyJ6Qw7uBypJ663tXOBuDNgSAj7fFl2Iw%3d&risl=&pid=ImgRaw&r=0" target="_blank" style="color: red;"></a>
+            </div>
+          </div>
+          
+    </section>
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2>Contact me</h2>
+      <form action="https://formsubmit.co/cristiano642@hotmail.com" method="POST">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="email" name="email" placeholder="Email" require>
+        <textarea cols="30" rows="10" name="message" placeholder="Write your message here" required></textarea>
+        <input type="hidden" name="_autoresponse" value="Thank you for your message, I will reply as soon as possible.">
+        <button type="submit">Send</button>
+      </form>
+    </section>
+    <footer>
+      <p>If you want to see more of my amazing projects, feel free to check out my social media and contact me anytime.</p>
+      <br>
+      <a href="https://github.com/Cristiano642" target="_blank" style="color: white;"><img
+          src="resource/GitHub-icon.png"></a>
+      <a href="https://www.linkedin.com/in/cristianoe-dev/" target="_blank" style="color: white;"><img
+          src="resource/linkedin-icon.png"></a>
+      <a href="resource/peky.png" target="_blank" rel="noopener noreferrer"><img sizes="32px 32px" src="/resource/peky32x32.png"></a>
+      <a href="resource/Cristiano Esteves CV.pdf" target="_blank" style="color: white;"><img src="resource/cv-icon.png"></a>
+      <a href="https://open.spotify.com/show/4ibRw3unUvCYvK0RNx3aZR?si=bc5b42cee60f4824" target="_blank" style="color: white;"><img src="resource/spotify_icon-icons.com_65503.ico"></a>
+    </footer>
+  </main>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
